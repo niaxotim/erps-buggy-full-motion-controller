@@ -1,4 +1,4 @@
-radio.setGroup(0)
+radio.setGroup(255)
 let speed = 50
 basic.forever(function () {
     if (Kitronik_Game_Controller.buttonIsPressed(Kitronik_Game_Controller.ControllerButtonPins.Fire1)) {
